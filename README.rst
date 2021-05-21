@@ -1,17 +1,17 @@
 ==========
-*pyunique*
+*pycookie*
 ==========
 
-.. image:: https://img.shields.io/pypi/v/pyunique
+.. image:: https://img.shields.io/pypi/v/pycookie
 
-.. image:: https://img.shields.io/github/license/veltzer/pyunique
+.. image:: https://img.shields.io/github/license/veltzer/pycookie
 
 .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
 
-project website: https://veltzer.github.io/pyunique
+project website: https://veltzer.github.io/pycookie
 
 author: Mark Veltzer
 
-version: 0.0.8
+version: 0.0.1
 
 

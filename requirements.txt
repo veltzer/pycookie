@@ -2,8 +2,7 @@
 # production requirements
 pytconf
 pylogconf
-tqdm
-lmdb
+browsercookie
 # dev requirements
 pyclassifiers
 pypitools

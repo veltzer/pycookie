@@ -3,7 +3,7 @@ import config.project
 package_name = config.project.project_name
 
 console_scripts = [
-    'pyunique=pyunique.main:main',
+    'pycookie=pycookie.main:main',
 ]
 
 setup_requires = [
@@ -12,8 +12,7 @@ setup_requires = [
 run_requires = [
     'pytconf',
     'pylogconf',
-    'tqdm',
-    'lmdb',
+    'browsercookie',
 ]
 
 test_requires = [

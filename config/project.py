@@ -3,7 +3,7 @@ import pyclassifiers.values
 import config.general
 
 project_github_username = 'veltzer'
-project_name = 'pyunique'
+project_name = 'pycookie'
 github_repo_name = project_name
 project_website = 'https://{project_github_username}.github.io/{project_name}'.format(**locals())
 project_website_source = 'https://github.com/{project_github_username}/{project_name}'.format(**locals())
@@ -13,17 +13,18 @@ project_website_download_src = project_website_source
 # noinspection SpellCheckingInspection
 project_paypal_donate_button_id = 'ASPRXR59H2NTQ'
 project_google_analytics_tracking_id = 'UA-56436979-1'
-project_short_description = 'help you get rid of duplicate files'
+project_short_description = 'help you handle cookies'
 project_long_description = project_short_description
 # keywords to put on html pages or for search, dont put the name of the project or my details
 # as they will be added automatically...
 project_keywords = [
-    'duplicates',
-    'remove',
-    'hash',
+    'cookies',
+    'browser',
+    'chrome',
+    'firefox',
 ]
 project_license = 'MIT'
-project_year_started = '2020'
+project_year_started = '2021'
 project_description = project_short_description
 project_platforms = [
     'python3',

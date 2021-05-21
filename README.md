@@ -1,23 +1,22 @@
 
-# *pyunique* project by Mark Veltzer
+# *pycookie* project by Mark Veltzer
 
-![PyPI - Status](https://img.shields.io/pypi/status/pyunique)
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pyunique)
-![PyPI - License](https://img.shields.io/pypi/l/pyunique)
-![PyPI - Package Name](https://img.shields.io/pypi/v/pyunique)
-![PyPI - Format](https://img.shields.io/pypi/format/pyunique)
+![PyPI - Status](https://img.shields.io/pypi/status/pycookie)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pycookie)
+![PyPI - License](https://img.shields.io/pypi/l/pycookie)
+![PyPI - Package Name](https://img.shields.io/pypi/v/pycookie)
+![PyPI - Format](https://img.shields.io/pypi/format/pycookie)
 
-![PyPI - Downloads](https://img.shields.io/pypi/dd/pyunique)
-![PyPI - Downloads](https://img.shields.io/pypi/dw/pyunique)
-![PyPI - Downloads](https://img.shields.io/pypi/dm/pyunique)
+![PyPI - Downloads](https://img.shields.io/pypi/dd/pycookie)
+![PyPI - Downloads](https://img.shields.io/pypi/dw/pycookie)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/pycookie)
 
 ![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)
 
-![build](https://github.com/veltzer/pyunique/workflows/build/badge.svg)
+![build](https://github.com/veltzer/pycookie/workflows/build/badge.svg)
+help you handle cookies
 
-help you get rid of duplicate files
-
-project website: https://veltzer.github.io/pyunique
+project website: https://veltzer.github.io/pycookie
 
 chat with me at [![gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/veltzer/mark.veltzer)
 
