@@ -8,13 +8,13 @@ def get_readme():
 
 setuptools.setup(
     # the first three fields are a must according to the documentation
-    name="pyunique",
-    version="0.0.8",
+    name="pycookie",
+    version="0.0.1",
     packages=[
-        'pyunique',
+        'pycookie',
     ],
     # from here all is optional
-    description="help you get rid of duplicate files",
+    description="help you handle cookies",
     long_description=get_readme(),
     long_description_content_type="text/x-rst",
     author="Mark Veltzer",
@@ -22,12 +22,13 @@ setuptools.setup(
     maintainer="Mark Veltzer",
     maintainer_email="mark.veltzer@gmail.com",
     keywords=[
-        'duplicates',
-        'remove',
-        'hash',
+        'cookies',
+        'browser',
+        'chrome',
+        'firefox',
     ],
-    url="https://veltzer.github.io/pyunique",
-    download_url="https://github.com/veltzer/pyunique",
+    url="https://veltzer.github.io/pycookie",
+    download_url="https://github.com/veltzer/pycookie",
     license="MIT",
     platforms=[
         'python3',
@@ -35,8 +36,7 @@ setuptools.setup(
     install_requires=[
         'pytconf',
         'pylogconf',
-        'tqdm',
-        'lmdb',
+        'browsercookie',
     ],
     extras_require={
     },
@@ -56,7 +56,7 @@ setuptools.setup(
     data_files=[
     ],
     entry_points={"console_scripts": [
-        'pyunique=pyunique.main:main',
+        'pycookie=pycookie.main:main',
     ]},
     python_requires=">=3.6",
 )

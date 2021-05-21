@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# pyunique documentation build configuration file, created by
+# pycookie documentation build configuration file, created by
 # sphinx-quickstart on Mon Nov 13 12:44:22 2017.
 #
 # This file is execfile()d with the current directory set to its
@@ -48,7 +48,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'pyunique'
+project = 'pycookie'
 # noinspection PyShadowingBuiltins
 copyright = '2020, Mark Veltzer'
 author = 'Mark Veltzer'
@@ -115,7 +115,7 @@ html_sidebars = {
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'pyunique_doc'
+htmlhelp_basename = 'pycookie_doc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -142,7 +142,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'pyunique.tex', 'pyunique Documentation',
+    (master_doc, 'pycookie.tex', 'pycookie Documentation',
      'Mark Veltzer', 'manual'),
 ]
 
@@ -152,7 +152,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'pyunique', 'pyunique Documentation',
+    (master_doc, 'pycookie', 'pycookie Documentation',
      [author], 1)
 ]
 
@@ -163,7 +163,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'pyunique', 'pyunique Documentation',
-     author, 'pyunique', 'One line description of project.',
+    (master_doc, 'pycookie', 'pycookie Documentation',
+     author, 'pycookie', 'One line description of project.',
      'Miscellaneous'),
 ]

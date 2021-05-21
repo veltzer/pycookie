@@ -1,7 +1,7 @@
-pyunique
+pycookie
 ========
 
 .. toctree::
    :maxdepth: 4
 
-   pyunique
+   pycookie

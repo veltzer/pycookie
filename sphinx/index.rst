@@ -1,4 +1,4 @@
-Welcome to pyunique's documentation!
+Welcome to pycookie's documentation!
 ====================================
 
 .. toctree::
