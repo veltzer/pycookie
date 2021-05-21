@@ -1,13 +1,11 @@
 """
 main entry point to the program
 """
-import os
 
+import browsercookie
 import pylogconf.core
-import tqdm
 from pytconf import register_main, config_arg_parse_and_launch, register_endpoint
 from pycookie.static import VERSION_STR
-import browsercookie
 
 
 @register_endpoint(
@@ -22,6 +20,7 @@ def dump_cookies() -> None:
     # print(len(cj._cookies))
     # print(cj._cookies)
     # noinspection PyProtectedMember
+    # pylint: disable=protected-access
     for k, v in cj._cookies.items():
         print("=======================")
         print(k, v)
