@@ -6,7 +6,7 @@ console_scripts = [
     "pycookie=pycookie.main:main",
 ]
 
-run_requires = [
+install_requires = [
     "pytconf",
     "pylogconf",
     "browsercookie",
