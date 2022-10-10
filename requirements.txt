@@ -4,9 +4,7 @@ pytconf
 pylogconf
 browsercookie
 # dev requirements
-pyclassifiers
 pypitools
-pydmt
 Sphinx
 pyyaml
 # test requirements
@@ -14,5 +12,4 @@ pylint
 pytest
 pytest-cov
 flake8
-pymakehelper
 mypy
