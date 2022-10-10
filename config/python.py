@@ -4,7 +4,6 @@ console_scripts = [
 dev_requires = [
     "pyclassifiers",
     "pypitools",
-    "pydmt",
     "Sphinx",
     "pyyaml",
 ]
@@ -12,6 +11,10 @@ install_requires = [
     "pytconf",
     "pylogconf",
     "browsercookie",
+]
+make_requires = [
+    "pymakehelper",
+    "pydmt",
 ]
 test_requires = [
     "pylint",
