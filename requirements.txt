@@ -5,7 +5,6 @@ pylogconf
 browsercookie
 # dev requirements
 pypitools
-Sphinx
 pyyaml
 # test requirements
 pylint
