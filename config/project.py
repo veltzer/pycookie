@@ -1,4 +1,4 @@
-description_short = "help you handle cookies"
+description_short = "Pycookie will help you handle cookies"
 keywords = [
     "cookies",
     "browser",
