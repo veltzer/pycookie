@@ -37,7 +37,7 @@
 <span class="kn">import</span> <span class="nn">browsercookie</span>
 <span class="kn">import</span> <span class="nn">pylogconf.core</span>
 <span class="kn">from</span> <span class="nn">pytconf</span> <span class="kn">import</span> <span class="n">register_main</span><span class="p">,</span> <span class="n">config_arg_parse_and_launch</span><span class="p">,</span> <span class="n">register_endpoint</span>
-<span class="kn">from</span> <span class="nn">pycookie.static</span> <span class="kn">import</span> <span class="n">VERSION_STR</span>
+<span class="kn">from</span> <span class="nn">pycookie.static</span> <span class="kn">import</span> <span class="n">VERSION_STR</span><span class="p">,</span> <span class="n">APP_NAME</span><span class="p">,</span> <span class="n">DESCRIPTION</span>
 
 
 <div class="viewcode-block" id="dump_cookies"><a class="viewcode-back" href="../../pycookie.html#pycookie.main.dump_cookies">[docs]</a><span class="nd">@register_endpoint</span><span class="p">(</span>
@@ -62,8 +62,8 @@
 
 
 <div class="viewcode-block" id="main"><a class="viewcode-back" href="../../pycookie.html#pycookie.main.main">[docs]</a><span class="nd">@register_main</span><span class="p">(</span>
-    <span class="n">main_description</span><span class="o">=</span><span class="s2">&quot;pycookie will help you remove duplicate files&quot;</span><span class="p">,</span>
-    <span class="n">app_name</span><span class="o">=</span><span class="s2">&quot;pycookie&quot;</span><span class="p">,</span>
+    <span class="n">main_description</span><span class="o">=</span><span class="n">DESCRIPTION</span><span class="p">,</span>
+    <span class="n">app_name</span><span class="o">=</span><span class="n">APP_NAME</span><span class="p">,</span>
     <span class="n">version</span><span class="o">=</span><span class="n">VERSION_STR</span><span class="p">,</span>
 <span class="p">)</span>
 <span class="k">def</span> <span class="nf">main</span><span class="p">():</span>

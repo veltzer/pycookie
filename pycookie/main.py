@@ -5,7 +5,7 @@ main entry point to the program
 import browsercookie
 import pylogconf.core
 from pytconf import register_main, config_arg_parse_and_launch, register_endpoint
-from pycookie.static import VERSION_STR
+from pycookie.static import VERSION_STR, APP_NAME, DESCRIPTION
 
 
 @register_endpoint(
@@ -30,8 +30,8 @@ def dump_cookies() -> None:
 
 
 @register_main(
-    main_description="pycookie will help you remove duplicate files",
-    app_name="pycookie",
+    main_description=DESCRIPTION,
+    app_name=APP_NAME,
     version=VERSION_STR,
 )
 def main():
