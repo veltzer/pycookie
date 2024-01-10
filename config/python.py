@@ -5,10 +5,14 @@ console_scripts: List[str] = [
     "pycookie=pycookie.main:main",
 ]
 dev_requires: List[str] = [
+    "pymultigit",
     "pypitools",
+    "black",
     "pyyaml",
 ]
-config_requires: List[str] = []
+config_requires: List[str] = [
+    "pyclassifiers",
+]
 install_requires: List[str] = [
     "pytconf",
     "pylogconf",
