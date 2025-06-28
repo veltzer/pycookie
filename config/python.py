@@ -1,8 +1,8 @@
 """ python deps for this project """
 
-console_scripts: list[str] = [
-    "pycookie=pycookie.main:main",
-]
+scripts: dict[str,str] = {
+    "pycookie": "pycookie.main:main",
+}
 config_requires: list[str] = [
     "pyclassifiers",
 ]
