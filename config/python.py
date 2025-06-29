@@ -12,9 +12,11 @@ install_requires: list[str] = [
     "browsercookie",
 ]
 build_requires: list[str] = [
-    "pymakehelper",
+    "hatch",
     "pydmt",
-
+    "pymakehelper",
+    "pycmdtools",
+    # modules
     "pyyaml",
 ]
 test_requires: list[str] = [
