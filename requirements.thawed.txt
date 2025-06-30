@@ -2,6 +2,7 @@
 browsercookie
 hatch
 mypy
+pyclassifiers
 pycmdtools
 pydmt
 pylint
