@@ -9,29 +9,29 @@ pycookie.configs module
 
 .. automodule:: pycookie.configs
    :members:
-   :undoc-members:
    :show-inheritance:
+   :undoc-members:
 
 pycookie.main module
 --------------------
 
 .. automodule:: pycookie.main
    :members:
-   :undoc-members:
    :show-inheritance:
+   :undoc-members:
 
 pycookie.static module
 ----------------------
 
 .. automodule:: pycookie.static
    :members:
-   :undoc-members:
    :show-inheritance:
+   :undoc-members:
 
 Module contents
 ---------------
 
 .. automodule:: pycookie
    :members:
-   :undoc-members:
    :show-inheritance:
+   :undoc-members:
