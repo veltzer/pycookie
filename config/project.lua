@@ -6,3 +6,4 @@ KEYWORDS = {
     "chrome",
     "firefox",
 }
+PYPI = true
