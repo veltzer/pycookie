@@ -5,7 +5,7 @@
 
 description: Pycookie will help you handle cookies
 
-project website: https://veltzer.github.io/pycookie
+project website: <https://veltzer.github.io/pycookie>
 
 author: Mark Veltzer
 
