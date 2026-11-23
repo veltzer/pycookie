@@ -18,13 +18,9 @@ def dump_cookies() -> None:
     # cj = browsercookie.load()
     # cj = browsercookie.chrome()
     cj = browsercookie.firefox()
-    # print(len(cj._cookies))
-    # print(cj._cookies)
-    # noinspection PyProtectedMember
-    # pylint: disable=protected-access
-    for k, v in cj._cookies.items():
+    for cookie in cj:
         print("=======================")
-        print(k, v)
+        print(cookie.domain, cookie)
     # print(dir(cj))
     # help(cj.make_cookies)
     # help(cj.extract_cookies)
