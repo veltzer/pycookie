@@ -15,15 +15,10 @@ from pycookie.static import APP_NAME, DESCRIPTION, VERSION_STR
     ],
 )
 def dump_cookies() -> None:
-    # cj = browsercookie.load()
-    # cj = browsercookie.chrome()
     cj = browsercookie.firefox()
     for cookie in cj:
         print("=======================")
         print(cookie.domain, cookie)
-    # print(dir(cj))
-    # help(cj.make_cookies)
-    # help(cj.extract_cookies)
 
 
 @register_main(
